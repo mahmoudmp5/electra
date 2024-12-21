@@ -21,7 +21,7 @@ header .container {
     justify-content: space-between;
 }
 header .logo {
-    width: 800px;
+    width: 400px;
     height: auto;
     margin-right: 1rem;
 }
