@@ -43,8 +43,8 @@ header nav ul li a:hover {
 
 /* Hero Section */
 #hero {
-    background: linear-gradient(to bottom, #007BFF, #0056b3);
-    color: white;
+    background: #FFD700; /* Changed background to yellow for readability */
+    color: black; /* Adjusted text color to ensure readability */
     text-align: center;
     padding: 2rem 0;
 }
