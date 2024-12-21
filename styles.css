@@ -10,7 +10,7 @@ body {
 
 /* Header */
 header {
-    background: #007BFF;
+    background: #fffafa;
     color: yellow ;
     padding: 1rem 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -73,7 +73,7 @@ header nav ul li a:hover {
 /* Footer */
 footer {
     background: #333;
-    color: black;
+    color: white;
     text-align: center;
     padding: 1rem 0;
     font-size: 0.9rem;
