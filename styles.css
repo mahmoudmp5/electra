@@ -90,3 +90,36 @@ footer p {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* Team Section */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.team-member {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: calc(25% - 2rem); /* Adjust based on the desired number of columns */
+}
+.team-member img {
+    width: 100%;
+    height: auto;
+}
+.team-member h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+.team-member p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+.team-member:hover {
+    transform: translateY(-10px);
+}
